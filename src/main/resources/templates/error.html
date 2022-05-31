@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>An error occurred</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link th:href="@{/styles/error.css}" rel="stylesheet" />
+
+</head>
+<body>
+<div id="main">
+    <div class="fof">
+        <h1>Oops ! Unexpected error occurred...</h1>
+        <p th:if="${exception != null}" th:text="${exception}"/>
+    </div>
+</div>
+</body>
+</html>
