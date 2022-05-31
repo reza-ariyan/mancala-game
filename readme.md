@@ -1,4 +1,4 @@
-# bol.com Game
+# Mancala Game
 
 This is a game application for bol.com
 
